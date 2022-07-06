@@ -1,0 +1,13 @@
+{
+    "port" : "3000",
+    "CLIENT_ID" : "id",
+    "CLIENT_SECRET" : "SECRET",
+    "CLIENT_REDIRECT" : "/auth/redirect",
+
+    "mysql": {
+        "host": "seu_host",
+        "user": "seu_usuario",
+        "password": "sua_senha",
+        "database": "sua_data_base"
+    }
+}

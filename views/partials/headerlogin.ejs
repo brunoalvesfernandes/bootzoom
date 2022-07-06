@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOOM - BOTS</title>
+    <link rel="icon" href="/img/zoom.gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/stylesheets/footer.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<section id="menu"></section>
+    <ul>
+        <li onclick="home()">HOME</li>
+        <li onclick="contact()">CONTATE-ME</li>
+        <li onclick="about()">SOBRE</li>
+        <li onclick="rules()">REGRAS</li>
+        <div id="logged"> <img id="img_login" src=" <%= url %> " alt=""> <div id="sub_logged"> <span class="btn_logged" id="painel" onclick="painel()">Painel de controle</span> <span class="btn_logged" id="quit" onclick="quit()">Sair</span> </div> </div>
+    </ul>
+</section>
